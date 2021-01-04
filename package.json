@@ -1,5 +1,5 @@
 {
-  "name": "mina-tools",
+  "name": "mina-tool",
   "version": "1.0.0",
   "description": "小程序实用工具库，包含组件、wxs、behaviors、wxss几个维度",
   "main": "index",

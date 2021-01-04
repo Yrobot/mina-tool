@@ -1,4 +1,4 @@
-# mina-tools
+# mina-tool
 
 小程序 开发实用工具集合  
 主要包含几个维度：
@@ -10,7 +10,7 @@
 
 ## 安装
 
-1. `npm install mina-tools`
+1. `npm install mina-tool`
 2. 微信开发者工具编译 npm 包
 
 ## 组件
@@ -25,7 +25,7 @@ _快速实现全屏浮动弹窗_
 ```json
 {
   "usingComponents": {
-    "popup-window": "mina-tools/components/popup-window"
+    "popup-window": "mina-tool/components/popup-window"
   }
 }
 ```
@@ -58,7 +58,7 @@ feature：
 ```json
 {
   "usingComponents": {
-    "multi-picker": "mina-tools/components/multi-picker"
+    "multi-picker": "mina-tool/components/multi-picker"
   }
 }
 ```
@@ -84,7 +84,7 @@ _在 img 的 src 展示失败时，自动用 err 属性值更新 src 作为展�
 ```json
 {
   "usingComponents": {
-    "error-img": "mina-tools/components/error-img"
+    "error-img": "mina-tool/components/error-img"
   }
 }
 ```
@@ -102,7 +102,7 @@ _封装 数据请求展示过程中的一些状态展示：loading、empty、sho
 ```json
 {
   "usingComponents": {
-    "data-status": "mina-tools/components/data-status"
+    "data-status": "mina-tool/components/data-status"
   }
 }
 ```
@@ -122,7 +122,7 @@ _展示格式化：formatNumber, formatTime_
 ##### 使用
 
 ```html
-<wxs src="mina-tools/wxs/format.wxs" module="format" />
+<wxs src="mina-tool/wxs/format.wxs" module="format" />
 ...
 <!-- 98.6万 -->
 <view class="number">{{format.formatNumber(985800)}}</view>
