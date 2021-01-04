@@ -1,0 +1,27 @@
+{
+  "name": "mina-tools",
+  "version": "1.0.0",
+  "description": "小程序实用工具库，包含组件、wxs、behaviors、wxss几个维度",
+  "main": "index",
+  "miniprogram": "src",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yrobot/mina-tools.git"
+  },
+  "keywords": [
+    "yrobot",
+    "mina",
+    "tools",
+    "components",
+    "behaviors",
+    "wxs",
+    "wxss"
+  ],
+  "author": "yrobot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yrobot/mina-tools/issues"
+  },
+  "homepage": "https://github.com/Yrobot/mina-tools#readme"
+}
