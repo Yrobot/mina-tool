@@ -20,6 +20,10 @@
 _快速实现全屏浮动弹窗_
 ![](https://tva1.sinaimg.cn/large/0081Kckwly1gltjys368lj30u00lntak.jpg)
 
+##### 体验
+
+![](https://tva1.sinaimg.cn/large/0081Kckwly1glmk9m5e9jj3076076my2.jpg)
+
 ##### 使用
 
 ```json
@@ -42,6 +46,27 @@ _快速实现全屏浮动弹窗_
 >
   <!-- popup-window内部展示slot -->
 </popup-window>
+```
+
+### keyword-highlight
+
+_快速支持关键词高亮，和原生 text 组件使用保持一致_
+![](https://636f-could-test-1258393788.tcb.qcloud.la/README/screenshot-keyword-hightlight.jpeg)
+
+##### 体验
+
+##### 使用
+
+```json
+{
+  "usingComponents": {
+    "keyword-highlight": "mina-tool/components/keyword-highlight"
+  }
+}
+```
+
+```html
+<keyword-highlight class="class" color="{{color}}" text="{{text}}" keyword="{{keyword}}" />
 ```
 
 ### multi-picker
