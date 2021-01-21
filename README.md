@@ -142,7 +142,7 @@ _封装 数据请求展示过程中的一些状态展示：loading、empty、sho
 
 ### format.wxs
 
-_展示格式化：formatNumber, formatTime_
+_展示格式化：formatNumber, formatTime, formatCountdown_
 
 ##### 使用
 
@@ -155,5 +155,13 @@ _展示格式化：formatNumber, formatTime_
 <view class="number">{{format.formatNumber(145004545)}}</view>
 <!-- 2021-01-04 -->
 <view class="date">{{format.formatTime(1609756055278,'YYYY-MM-dd')}}</view>
+
+<!-- 倒计时配合 `mina-countdown` 一起使用，更欢乐 -->
+<!-- 00:01:02 -->
+<view class="countdown">{{format.formatCountdown(62,'hh:mm:ss')}}</view>
+<!-- 02:00 -->
+<view class="countdown">{{format.formatCountdown(120,'mm:ss')}}</view>
 ...
 ```
+
+[mina-countdown](https://github.com/Yrobot/mina-countdown)快速实现小程序倒计时
