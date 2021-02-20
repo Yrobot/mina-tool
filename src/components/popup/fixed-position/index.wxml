@@ -1,3 +1,0 @@
-<view class="popup-fixed-slot ^position ^^position ^^^position" style='left:{{_left}}{{_unit}};top:{{_top}}{{_unit}};'>
-  <slot></slot>
-</view>

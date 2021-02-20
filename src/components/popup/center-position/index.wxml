@@ -1,3 +1,0 @@
-<view class="center-position ^position ^^position ^^^position">
-  <slot></slot>
-</view>

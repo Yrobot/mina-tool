@@ -1,3 +1,0 @@
-<block wx:if='{{visible}}'>
-  <slot></slot>
-</block>
