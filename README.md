@@ -1,5 +1,7 @@
 # mina-tool
 
+![](https://track.yrobot.top/ga-beacon/UA-190592680-2/mina-tool/readme?flat)
+
 小程序 开发实用工具集合  
 主要包含几个维度：
 
@@ -14,60 +16,6 @@
 2. 微信开发者工具编译 npm 包
 
 ## 组件
-
-### popup-window
-
-_快速实现全屏浮动弹窗_
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gltjys368lj30u00lntak.jpg)
-
-##### 体验
-
-![](https://tva1.sinaimg.cn/large/0081Kckwly1glmk9m5e9jj3076076my2.jpg)
-
-##### 使用
-
-```json
-{
-  "usingComponents": {
-    "popup-window": "mina-tool/components/popup-window"
-  }
-}
-```
-
-```html
-<popup-window
-  selector="{{selector}}"
-  id="popup-window"
-  tap-bg-close="{{true}}"
-  catch-scroll="{{true}}"
-  scroll-bg-close="{{true}}"
-  visible="{{true}}"
-  background-color="rgba(0,0,0,0.4)"
->
-  <!-- popup-window内部展示slot -->
-</popup-window>
-```
-
-### keyword-highlight
-
-_快速支持关键词高亮，和原生 text 组件使用保持一致_
-![](https://636f-could-test-1258393788.tcb.qcloud.la/README/screenshot-keyword-hightlight.jpeg)
-
-##### 体验
-
-##### 使用
-
-```json
-{
-  "usingComponents": {
-    "keyword-highlight": "mina-tool/components/keyword-highlight"
-  }
-}
-```
-
-```html
-<keyword-highlight class="class" color="{{color}}" text="{{text}}" keyword="{{keyword}}" />
-```
 
 ### multi-picker
 
